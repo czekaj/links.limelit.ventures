@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="theme-color" content="#022c22" />
+    <title>Limelit Ventures | Technical Strategy | MVP Advisory | Investment</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        limelit: {
+                            50: '#f7fee7',
+                            100: '#ecfccb',
+                            200: '#d9f99d',
+                            300: '#bef264',
+                            400: '#a3e635',  // main brand color
+                            500: '#84cc16',
+                            600: '#65a30d',
+                            700: '#4d7c0f',
+                            800: '#3f6212',
+                            900: '#365314',
+                            950: '#1a2e05',
+                        },
+                    },
+                },
+            },
+        }
+    </script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+        body {
+            font-family: 'Poppins', sans-serif;
+        }
+    </style>
+</head>
+
+<body class="bg-gradient-to-br from-black to-limelit-950 min-h-screen">
+    <div class="container mx-auto px-0 py-8 max-w-md">
+        <header class="text-center mb-6">
+            <h1 class="font-black text-3xl md:text-4xl">
+                <span class="text-white">
+                    LIME<span class="font-black text-limelit-400">LIT.</span><span class="font-thin">VENTURES</span>
+                </span>
+            </h1>
+            <p class="text-md text-white font-light">Technical Strategy | MVP Advisory | Investment</p>
+        </header>
+
+        <div
+            class="bg-gradient-to-br from-limelit-900 to-limelit-800 rounded-lg shadow-lg px-6 py-4 pb-1 mb-4 ml-4 mr-4">
+            <h2 id="welcome-title" class="text-white text-xl font-semibold mb-4">Welcome!</h2>
+            <p id="welcome-message" class="text-white mb-4 text-sm">
+                I'm Lucas Czekaj, the Managing Partner at Limelit Ventures. We help ambitious founders make confident
+                technical decisions. <br /><br />Explore
+                below to learn more about our services.
+            </p>
+        </div>
+
+        <div class="space-y-4 px-4">
+            <a href="https://www.limelit.ventures"
+                class="block bg-limelit-500 hover:bg-limelit-400 text-white font-semibold py-3 px-4 rounded-lg transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-105 text-center flex items-center justify-center [text-shadow:_0_1px_1px_rgba(0,0,0,0.5)]">
+                <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path>
+                </svg>
+                Discover Our Services
+            </a>
+            <a href="https://www.linkedin.com/in/lukaszczekaj"
+                class="block bg-blue-600 hover:bg-blue-700 text-white py-3 px-4 rounded-lg transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-105 text-center flex items-center justify-center">
+                <svg class="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd"
+                        d="M16.338 16.338H13.67V12.16c0-.995-.017-2.277-1.387-2.277-1.39 0-1.601 1.086-1.601 2.207v4.248H8.014v-8.59h2.559v1.174h.037c.356-.675 1.227-1.387 2.526-1.387 2.703 0 3.203 1.778 3.203 4.092v4.711zM5.005 6.575a1.548 1.548 0 11-.003-3.096 1.548 1.548 0 01.003 3.096zm-1.337 9.763H6.34v-8.59H3.667v8.59zM17.668 1H2.328C1.595 1 1 1.581 1 2.298v15.403C1 18.418 1.595 19 2.328 19h15.34c.734 0 1.332-.582 1.332-1.299V2.298C19 1.581 18.402 1 17.668 1z"
+                        clip-rule="evenodd"></path>
+                </svg>
+                Connect with Lucas
+            </a>
+            <!-- TODO: generated with Python: `print(''.join(f'%{ord(c):02x}' for c in input("Enter email: ")))` -->
+            <a href="mailto:%68%65%6c%6c%6f@%6c%69%6d%65%6c%69%74.%76%65%6e%74%75%72%65%73"
+                class="block bg-purple-600 hover:bg-purple-700 text-white py-3 px-4 rounded-lg transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-105 text-center flex items-center justify-center">
+                <svg class="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"></path>
+                    <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"></path>
+                </svg>
+                Contact Us
+            </a>
+        </div>
+
+        <footer class="mt-8 text-center text-limelit-100 text-xs">
+            &copy; 2025 <a href="https://limelit.ventures">Limelit Ventures</span></a>
+        </footer>
+    </div>
+
+</body>
+
+</html>
